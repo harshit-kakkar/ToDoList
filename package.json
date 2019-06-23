@@ -1,0 +1,26 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.8.10",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit-kakkar/ToDoList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshit-kakkar/ToDoList/issues"
+  },
+  "homepage": "https://github.com/harshit-kakkar/ToDoList#readme"
+}
