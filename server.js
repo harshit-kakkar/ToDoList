@@ -7,6 +7,8 @@ const {
 
 const app = express()
 
+const PORT = process.env.PORT || 8765
+
 app.use('/app',express.static(__dirname + '/public'))
 
 app.use(express.json())
@@ -64,7 +66,7 @@ app.delete('/todos/:id',async (req,res)=>{
 
 db.sync()
   .then(() => {
-    app.listen(8765, () => {
+    app.listen(PORT, () => {
       console.log('Server started')
     })
   })
